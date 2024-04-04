@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+.game-window {
+  position: relative;
+  display: inline-block;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.background-image {
+  width: 1000px; 
+  height: auto;
+}
+
+.target-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.target-image.lamp-image {
+  position: absolute;
+  top: 10%;  
+  left: 10%;  
+  transform: translate(-50%, -50%);
+  width: 35px;  
+}
+
+.target-image.thanos-image {
+  position: absolute;
+  top: 46.25%;  
+  left: 20.5%;  
+  transform: translate(-50%, -50%);
+  width: 30px; 
+}
+
+.target-image.xenomorph-image {
+  position: absolute;
+  top: 59%; 
+  left: 52%;  
+  transform: translate(-50%, -50%);
+  width: 150px;  
+}
+
+.lives-container {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 0, 0, 0.8); 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.target-image.babySun-image {
+  position: absolute;
+  top: 8%; 
+  left: 2%;  
+  transform: translate(-50%, -50%);
+  width: 35px;  
+}
+
+.target-image.spongeGrave-image {
+  position: absolute;
+  top: 65%; 
+  left: 64.5%;  
+  transform: translate(-50%, -50%);
+  width: 42px;  
+}
